@@ -15644,18 +15644,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vanes\\CIDM 4390\\TeamBlueProject\\Pages\\Evaluation.cshtml",
-      "TargetPath": "Pages\\Evaluation.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Vanes\\CIDM 4390\\TeamBlueProject\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 4390\\TeamBlueProject\\Pages\\CISProgram\\Index.cshtml",
+      "TargetPath": "Pages\\CISProgram\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Vanes\\CIDM 4390\\TeamBlueProject\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Vanes\\CIDM 4390\\TeamBlueProject\\Pages\\CISProgram\\Create.cshtml",
+      "TargetPath": "Pages\\CISProgram\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

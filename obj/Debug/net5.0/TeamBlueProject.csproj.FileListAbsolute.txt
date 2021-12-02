@@ -162,4 +162,5 @@ C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\TeamBlueProject.dll
 C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\ref\TeamBlueProject.dll
 C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\TeamBlueProject.pdb
 C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\TeamBlueProject.genruntimeconfig.cache
-C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\Razor\Pages\Evaluation.cshtml.g.cs
+C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\Razor\Pages\CourseLearningObjectives\Create.cshtml.g.cs
+C:\Users\Vanes\CIDM 4390\TeamBlueProject\obj\Debug\net5.0\Razor\Pages\CourseLearningObjectives\Index.cshtml.g.cs

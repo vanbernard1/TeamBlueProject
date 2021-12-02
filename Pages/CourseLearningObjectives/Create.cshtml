@@ -1,0 +1,49 @@
+@page
+@model TeamBlueProject.Pages.CourseLearningObjectives.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Course Learning Objective</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CLO.CLONumber" class="control-label"></label>
+                <input asp-for="CLO.CLONumber" class="form-control" />
+                <span asp-validation-for="CLO.CLONumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CLO.Objective" class="control-label"></label>
+                <input asp-for="CLO.Objective" class="form-control" />
+                <span asp-validation-for="CLO.Objective" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CLO.AssessmentPlan" class="control-label"></label>
+                <input asp-for="CLO.AssessmentPlan" class="form-control" />
+                <span asp-validation-for="CLO.AssessmentPlan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CLO.StudentOutcome" class="control-label"></label>
+                <input asp-for="CLO.StudentOutcome" class="form-control" />
+                <span asp-validation-for="CLO.StudentOutcome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

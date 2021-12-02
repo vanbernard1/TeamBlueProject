@@ -1,0 +1,48 @@
+@page
+@model TeamBlueProject.Pages.CourseLearningObjectives.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>CLO Index</h1>
+
+<p>
+    <a asp-page="Create">Create New CLO</a><span> | </span>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CLO[0].CLONumber)</th>
+            
+            <th>@Html.DisplayNameFor(model => model.CLO[0].Objective)</th>
+            
+            <th>@Html.DisplayNameFor(model => model.CLO[0].AssessmentPlan)</th>
+            
+            <th>@Html.DisplayNameFor(model => model.CLO[0].StudentOutcome)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.CLO) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CLONumber)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Objective)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.AssessmentPlan)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentOutcome)
+            </td>
+        
+        </tr>
+}
+    </tbody>
+</table>

@@ -23,7 +23,7 @@ namespace TeamBlueProject
             
             try
             {
-                CLOSeedData.Initialize(services);
+                AssessmentSeedData.Initialize(services);
             }
             catch (Exception ex)
             {
